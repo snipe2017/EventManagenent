@@ -1,0 +1,51 @@
+.navbar-brand {
+  padding: 0px;
+}
+
+.mdx-navbar {
+  box-shadow: 0px 2px 5px rgba(3, 72, 73, 0.7);
+  transform: translate3d(0, 0, 0);
+  border: 0px transparent !important;
+  background-color: #fff !important;
+}
+
+.mdx-navbar-content {
+  place-content: flex-end;
+}
+
+.nav-link-text {
+  color: #07A6AA !important;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.nav-link-text:hover {
+  background: #07A6AA !important;
+  color: white !important;
+}
+
+.active {
+  background: #07A6AA !important;
+  color: white !important;
+}
+
+.login-icon {
+  font-size: 20px;
+  padding: 0 10px;
+}
+
+.mobile-icon {
+  font-size: 20px;
+  padding: 0 10px;
+}
+
+.sign-out {
+  padding: 0 5px;
+}
+
+@media screen and (min-width: 992px) {
+  .nav-link-text {
+    padding: 18px;
+    margin: -10px 0;
+  }
+}
